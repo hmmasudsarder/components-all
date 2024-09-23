@@ -1,19 +1,19 @@
-import DropDown from "./components/Head/DropDown";
-import DropDownWithLogo from "./components/Head/DropDownWithLogo"
-import Navbar from "./components/Head/Navbar"
-import NavbarTwo from "./components/Head/NavbarTwo";
-
+import Dashboard from "./components/Dashboard/Dashboard";
+import DropDown from "./components/Headers/DropDown";
+import DropDownWithLogo from "./components/Headers/DropDownWithLogo";
+import Navbar from "./components/Headers/Navbar";
+import NavbarTwo from "./components/Headers/NavbarTwo";
 
 function App() {
-
   return (
     <>
       {/* <Navbar/> */}
-      <NavbarTwo/>
+      {/* <NavbarTwo/> */}
+      <Dashboard />
       {/* <DropDown/> */}
       {/* <DropDownWithLogo/> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
